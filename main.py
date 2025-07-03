@@ -1,5 +1,5 @@
-import asyncio
 from bot.telegram_bot import start_bot
 
 if __name__ == '__main__':
-    asyncio.run(start_bot())
+    # استدعي الدالة بدون asyncio.run
+    start_bot()  # أو إذا هي دالة async: استخدم await داخل async def main()
